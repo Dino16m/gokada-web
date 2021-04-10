@@ -18,7 +18,7 @@ class CreateAddressesTable extends Migration
             $table->timestamps();
             $table->string("primaryText");
             $table->string("secondaryText");
-            $table->text("placeId");
+            $table->string("placeId", 255);
             $table->index("placeId");
             
             $table->float("lat")->nullable();
