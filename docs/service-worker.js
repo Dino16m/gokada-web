@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "gokada/precache-manifest.17b79faa150660224f172adbfdcef2b3.js"
+  "/gokada-web/precache-manifest.5583288b59d6a5840eedc1e4603bc3a6.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "gokada-client"});
